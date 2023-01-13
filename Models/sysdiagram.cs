@@ -12,14 +12,12 @@ namespace Expanse_Manager.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class expense
+    public partial class sysdiagram
     {
-        public int expense_id { get; set; }
-        public string Title { get; set; }
-        public string Discription { get; set; }
-        public Nullable<System.DateTime> datetime { get; set; }
-        public Nullable<decimal> amount { get; set; }
-        public string catagory { get; set; }
-        public int catagory_id { get; set; }
+        public string name { get; set; }
+        public int principal_id { get; set; }
+        public int diagram_id { get; set; }
+        public Nullable<int> version { get; set; }
+        public byte[] definition { get; set; }
     }
 }

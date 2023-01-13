@@ -16,6 +16,6 @@ namespace Expanse_Manager.Models
     {
         public int catagory_id { get; set; }
         public string catagory_name { get; set; }
-        public Nullable<decimal> catagory_limit { get; set; }
+        public string catagory_limit { get; set; }
     }
 }

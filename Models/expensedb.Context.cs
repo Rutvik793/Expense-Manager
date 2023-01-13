@@ -13,10 +13,10 @@ namespace Expanse_Manager.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class expensedbEntities1 : DbContext
+    public partial class expensedbEntities4 : DbContext
     {
-        public expensedbEntities1()
-            : base("name=expensedbEntities1")
+        public expensedbEntities4()
+            : base("name=expensedbEntities4")
         {
         }
     
@@ -27,6 +27,7 @@ namespace Expanse_Manager.Models
     
         public virtual DbSet<catagory> catagories { get; set; }
         public virtual DbSet<expense> expenses { get; set; }
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<total_limit> total_limit { get; set; }
         public virtual DbSet<user> users { get; set; }
     }

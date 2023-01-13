@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Expense_tracker_project\Final\Expanse_Manager\Models\expensedb.edmx'. 
+﻿// T4 code generation is enabled for model 'D:\Expanse_Manager\Models\expensedb.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

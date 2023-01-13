@@ -1,0 +1,30 @@
+﻿body-table {
+    border-style: solid;
+    padding: 5px;
+    margin: auto;
+    width: 40%;
+}
+
+body > table {
+    width: 50%;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+table.list {
+    width: 50%;
+}
+
+td, th {
+    border: 3px solid #808080;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even), table.list thead > tr {
+    background-color: orange;
